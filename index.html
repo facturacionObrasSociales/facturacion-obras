@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Facturaciones de obras sociales</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    </head>
+    <body>
+        <h1>Facturaciones de obras sociales</h1>
+        <input type="file" id="archivoInput" accept=".xlsx,.xls">
+        <br>
+        <br>
+        <div id="botones">  
+            <button id="btn-procesar" onclick="procesarArchivo()">Procesar archivo</button>
+        </div>
+        <br>
+        <br>
+        <table id="tabla-prestaciones"></table>
+        <div id="errores">
+            <div id="seccion-error"></div>
+        </div>
+        <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+        <script src='main.js'></script>
+    </body>
+</html>

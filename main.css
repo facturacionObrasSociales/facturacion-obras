@@ -1,0 +1,92 @@
+body{
+  background-color: #044631;
+  color: white;
+  margin-top: 1.5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.oculto{
+  display: none;
+}
+
+/* Estilos para la tabla y sus elementos */
+#tabla-prestaciones {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#tabla-prestaciones th,
+#tabla-prestaciones td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#tabla-prestaciones th {
+  font-size: 24px; /* Tamaño de fuente para encabezados */
+  font-style: italic;
+}
+
+#tabla-prestaciones td h3 {
+  font-size: 20px; /* Tamaño de fuente para celdas A1 */
+}
+
+#tabla-prestaciones td h4 {
+  font-size: 16px; /* Tamaño de fuente para celdas que terminan en 'cluye:' */
+}
+
+th {
+  position: relative;
+}
+
+.contenidoH3{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.boton-toggle{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.titulo-codigo{
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+#botones{
+  text-align: center;
+}
+
+#btn-procesar{
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #28a745;
+}
+
+#btn-procesar:hover {
+  background-color: #218838;
+}
+
+#errores{
+  text-align: center;
+}
+
+.error{
+  font-weight: bold;
+  font-size: 24px;
+  display: inline-block;
+  padding: 10px;
+  margin: 0 auto;
+  border: 3px solid red;
+  text-align: center;
+}
